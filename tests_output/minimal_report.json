@@ -1,1 +1,1 @@
-{"modules":{"google":{"modulePath":"/home/nashtech/Documents/git/Git_Folder/tests/google.js","status":"pass"}}}
+{"modules":{"firstTest":{"modulePath":"/home/nashtech/Documents/git/Git_Folder/tests/firstTest.js","status":"pass"},"google":{"modulePath":"/home/nashtech/Documents/git/Git_Folder/tests/google.js","status":"skip"}}}
