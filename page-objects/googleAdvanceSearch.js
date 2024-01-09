@@ -23,7 +23,29 @@ module.exports = {
                 .click('@submitButton');
                 
             
-        }
+        },
+        assertTitle(selector, expectedTitle){
+            
+            return this
+            
+                .getText(selector, function(result){
+                    firstTitle=result.value;
+                    console.log(`First Title: ${firstTitle}`)  
+                    browser.assert.strictEqual(firstTitle,expectedTitle, 'Validating the Actual and Expected Value')
+                    
+                })   
+
+            
+        },
+
+            // demoTest(selector, expectedTitle) {
+                
+            //   const result = browser.element(selector).getText();
+            
+            //   console.log(result)
+            //   result.assert.valueEquals(expectedTitle);
+            // //    return this.result
+            // },
 
     }]
 }
